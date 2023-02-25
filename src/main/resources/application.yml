@@ -1,0 +1,13 @@
+spring:
+  redis:
+    host: 172.245.16.xxx
+    database: 0
+    port: 6379
+  datasource:
+    username: root
+    password: 'xxx'
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.245.16.xxx:3306/cloud_disk?serverTimezone=Asia/Shanghai
+  jpa:
+    database: mysql
+    show-sql: true
